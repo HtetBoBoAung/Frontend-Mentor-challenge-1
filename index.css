@@ -12,6 +12,52 @@ body {
      font-family: 'Poppins', sans-serif;
 }
 
+@media screen and ( max-width : 700px) {
+
+     body {
+          margin: 0;
+          padding: 0;
+     }
+
+     .container {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+     }
+
+     .main-section {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .card-container {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .ads-list {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .card-info {
+          display: flex;
+          flex-direction: column;
+     }
+
+     .ads {
+          display: flex;
+          flex-direction: column;
+          margin-top: 15rem;
+     }
+
+     .product-card {
+          display: flex;
+          flex-direction: column;
+     }
+}
+
 .container {
      display: grid;
      grid-template-columns: auto 1fr auto;
